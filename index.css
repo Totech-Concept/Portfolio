@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f8f8f8;
+}
+header {
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.call-to-order {
+    background: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.banner {
+    padding: 15px;
+    background: #cce7ff;
+    text-align: center;
+}
+.category {
+    width: 30px;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px;
+rgba(0,0,0,0.1)
+}
+.category img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+}
+.category-title {
+    margin-top: 10px;
+    font-weight: bold;
+}

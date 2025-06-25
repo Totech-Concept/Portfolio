@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9ff;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ffff;
+}
+
+.logo::before {
+    content: ;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.menu {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 40px 20px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hero .highlight {
+    color: #9c5cff;
+}
+
+.hero p {
+    color: #777;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.google-play-btn img {
+    width: 180px;
+}
+
+.try-free {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.product-image {
+    margin: 30px auto;
+max-width: 300px;
+}
+
+.product-image img {
+    width: 100%;
+}
