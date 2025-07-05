@@ -217,68 +217,57 @@ margin: 40px 10%;
     rgba(0, 0, 0, 0.05);
     border-left: 5px solid transparent;
 }
+
 .portfolio {
     padding: 60px 10%;
-    background: white;
+    text-align: center;
+    background: linear-gradient(to bottom right, #fff, #faf6ff);
 }
 
-.portfolio h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2rem;
+.portfolio-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.project-card {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    background: #f8f8f8;
-    border-radius: 10px;
-    overflow: hidde
-    text-align: center;
-    box-shadow: 0 2px 5px
-    rgba(0, 0, 0, 0.05);
-    align-content: flex-start;
-}
-
-.project-card img {
-    display: flex;
-    width: 70%;
-    height: auto;
-}
-
-.project-card h4 {
-    font-size: 1.1rem;
+.portfolio-header p {
+    font-size: 16px;
     color: black;
-    text-align: flex start;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-.project-card p {
-    font-size: 0.9rem;
-    color: rgb(0, 0, 0);
-    text-align: left;
+.portfolio-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto 40px auto;
 }
 
-.project-card a {
-    background-color: #fff;
-    color: #1a0246;
-    border: 1px solid #1a0246;
-    margin-left: 10px;
-    padding: 5px 5px;
+.portfolio-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px
+    rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-card img {
+width: 100%;
+height: 160px;
+object-fit: cover;
+}
+
+.portfolio-footer {
+    background: #1a0246;
+    color: white;
     text-decoration: none;
-    font-size: 0.9rem;
-}
-
-.more .btn {
-  background-color: #1a0246;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    cursor: pointer;
-    align-self: center;   
 }
 
 .project-discussion {
